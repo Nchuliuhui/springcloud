@@ -1,0 +1,3 @@
+# localhost name resolution is handled within DNS itself.
+    127.0.0.1       localhost eureka7001 eureka7002 eureka7003
+#   ::1             localhost

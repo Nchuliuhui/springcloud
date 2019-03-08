@@ -1,0 +1,16 @@
+spring:
+    profiles:
+      active:
+        - dev
+---
+spring:
+    profiles: dev #开发环境
+    application:
+      name: springcloud-config-jxtele-dev
+---
+spring:
+    profiles: test #测试环境
+    application:
+        name: springcloud-config-jxtele-test
+        # 保存UTF-8格式
+  

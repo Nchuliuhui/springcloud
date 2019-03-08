@@ -1,0 +1,12 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          #username:  xwbGithub
+          #password: xxx
+          uri: https://github.com/Nchuliuhui/springcloudconfig.git #github上的原始地址
